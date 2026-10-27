@@ -1,0 +1,25 @@
+name: radwet-l
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  # rsgislib and rios are only distributed through conda-forge.
+  # rsgislib 5.2.3 links GDAL 3.13 but resolves against GDAL 3.12 and then
+  # fails to import rsgislib.imagefilter, so stay on the 3.12 stack.
+  - rsgislib=5.2.2
+  - gdal=3.12.*
+  - libgdal-core=3.12.*
+  - rios
+  - kealib
+  - numpy
+  - pandas
+  - scikit-learn
+  # The converted models were validated with xgboost 2.x / 3.0.
+  - xgboost>=2.0,<3.1
+  # Input download (Google Earth Engine export + Google Drive retrieval)
+  - earthengine-api
+  - google-api-python-client
+  - google-auth
+  # Tests
+  - pytest
+  - rasterio

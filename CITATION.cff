@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the original RadWet-L paper
+  (preferred-citation) and, optionally, this replication.
+title: "RadWet-L replication: an open re-implementation of the RadWet-L inundation classifier"
+type: software
+authors:
+  - given-names: Daniel
+    family-names: Guerrero
+    alias: dfguerrerom
+license: GPL-3.0-only
+repository-code: "https://github.com/dfguerrerom/radwet-l-replication"
+keywords:
+  - ALOS-2
+  - PALSAR-2
+  - ScanSAR
+  - L-band SAR
+  - wetlands
+  - inundation
+  - Amazon
+  - XGBoost
+references:
+  - type: software
+    title: "ALOS-LBand: RadWet-L ALOS-2 PALSAR-2 ScanSAR Classification"
+    authors:
+      - family-names: Oakes
+        given-names: Gregory
+    repository-code: "https://github.com/gro5-AberUni/ALOS-LBand"
+    license: GPL-3.0-only
+  - type: dataset
+    title: "RadWet-L ALOS-2 PALSAR-2 ScanSAR Orbit Cycle Classified Products 2019-2023"
+    date-released: 2024-01-25
+    authors:
+      - family-names: Oakes
+        given-names: Gregory
+    doi: 10.5281/zenodo.10566417
+    license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: >-
+    RadWet-L: A Novel Approach for Mapping of Inundation Dynamics of Forested
+    Wetlands Using ALOS-2 PALSAR-2 L-Band Radar Imagery
+  authors:
+    - family-names: Oakes
+      given-names: Gregory
+    - family-names: Hardy
+      given-names: Andy
+    - family-names: Bunting
+      given-names: Pete
+    - family-names: Rosenqvist
+      given-names: Ake
+  journal: Remote Sensing
+  volume: 16
+  issue: 12
+  start: 2078
+  year: 2024
+  doi: 10.3390/rs16122078

@@ -1,0 +1,24 @@
+# Downloaded inputs, runs and reference products
+inputs/
+runs/
+zenodo/
+
+# Rasters (inputs and outputs are never committed)
+*.tif
+*.tiff
+*.kea
+*.vrt
+*.img
+*.aux.xml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Editors / OS
+.DS_Store
+*.swp
+.vscode/
+.idea/
